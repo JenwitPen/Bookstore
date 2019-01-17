@@ -1,0 +1,12 @@
+com\bank\bookstore\model\ResponseMessage.class
+com\bank\bookstore\model\User.class
+com\bank\bookstore\BookstoreApplication.class
+com\bank\bookstore\controller\BookController.class
+com\bank\bookstore\model\Book.class
+com\bank\bookstore\process\UserProcess.class
+com\bank\bookstore\process\BookProcess.class
+com\bank\bookstore\SwaggerConfig.class
+com\bank\bookstore\controller\UserController.class
+com\bank\bookstore\dao\BookDAO.class
+com\bank\bookstore\model\ErrorMessage.class
+com\bank\bookstore\dao\UserDAO.class

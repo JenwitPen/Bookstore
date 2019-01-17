@@ -24,8 +24,8 @@ public class UserDAO {
 		ArrayList<Object> books2 = new ArrayList<Object>();
 		books2.add(2);
 		books2.add(3);
-		User user1 = new User(1, "Jenwit", "Penjamrat", "15/01/1985", books1);
-		User user2 = new User(2, "Somsal", "Srinak", "11/02/1990", books2);
+		User user1 = new User( 1,"Jenwit", "Penjamrat", "15/01/1985", books1);
+		User user2 = new User( 2,"Somsal", "Srinak", "11/02/1990", books2);
 
 		hashMap.put(Integer.toString(user1.getUserid()), user1);
 		hashMap.put(Integer.toString(user2.getUserid()), user2);

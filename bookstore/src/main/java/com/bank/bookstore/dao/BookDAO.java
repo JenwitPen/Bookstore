@@ -19,9 +19,9 @@ public class BookDAO {
 	    }
 	 
 	    private static void initEmps() {
-	    	Book book1 = new Book(1, "An American Princess: The Many Lives of Allene Tew",
+	    	Book book1 = new Book(1, "An American Princess: The Many Lives of Allene Tew 2222",
 					"Annejet van der Zijl,Michele Hutchison 2", 149.00, true);
-	    	Book book2 = new Book(2, "An L Princess: The Many Lives of Allene Tew", "Annejet van der Zijl,Michele Hutchison", 149.00,
+	    	Book book2 = new Book(2, "An L Princess: The Many Lives of Allene Tew 2222", "Annejet van der Zijl,Michele Hutchison ", 149.00,
 					true);
 	    
 	 
@@ -29,11 +29,11 @@ public class BookDAO {
 	    	hashMap.put(Integer.toString(book2.getId()), book2);
 
 	    }
-	 
+	  
 	    public Book getBook(String userid) {
 	        return hashMap.get(userid);
 	    }
-	 
+	  
 	    public Book addBook(Book book) {
 	    	hashMap.put(Integer.toString(book.getId()), book);
 	        return book;
