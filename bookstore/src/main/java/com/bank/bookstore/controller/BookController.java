@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bank.bookstore.controller.process.BookProcess;
-import com.bank.bookstore.dao.BookDAO;
 import com.bank.bookstore.model.Book;
 import com.bank.bookstore.model.ResponseMessage;
+import com.bank.bookstore.process.BookProcess;
+import com.bank.bookstore.repository.BookRepository;
 
 
 @RestController
@@ -28,14 +28,14 @@ public class BookController {
 	
 	ResponseMessage responseMessage;
 	@Autowired
-	private BookDAO bookDAO;
+	BookRepository bookrepository;
 
 	@RequestMapping(value = "/books", method = RequestMethod.GET)
 	@ResponseBody
 	public ResponseEntity<?> getAllBooks() {
 		logger.info("Starting");
-		headers.add("Custom-Header", "foo");	
-		BookProcess bookProcess = new BookProcess(bookDAO);
+	
+		BookProcess bookProcess = new BookProcess(bookrepository);
 		responseMessage = bookProcess.getAllBooksProcess();
 
 		logger.info("Finish");
@@ -51,8 +51,8 @@ public class BookController {
 	@ResponseBody
 	public ResponseEntity<?> addBook(@RequestBody Book book) {
 		logger.info("Starting");
-		headers.add("Custom-Header", "foo");
-		BookProcess bookProcess = new BookProcess(bookDAO);
+	
+		BookProcess bookProcess = new BookProcess(bookrepository);
 		responseMessage = bookProcess.addBookProcess(book);
 		logger.info("Finish");
 		if (responseMessage.getResponseStatus()) {
@@ -61,4 +61,5 @@ public class BookController {
 			return new ResponseEntity<>(responseMessage.getErrorMessage(), headers, responseMessage.getHttpStatus());
 		}
 	}
+	
 }

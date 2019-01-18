@@ -1,19 +1,43 @@
 package com.bank.bookstore.model;
 
+import javax.persistence.Id;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+
 public class Book {
+	@Id
 	private int id;
+	@NotNull(message = "name is a required field")
+	@NotEmpty(message = "name is a required field")	
 	private String name;
+	
+	@NotNull(message = "author is a required field")
+	@NotEmpty(message = "author is a required field")	
 	private String author;
+	
+	@NotNull(message = "price is a required field")
+	@NotEmpty(message = "price is a required field")	
 	private double price;
+	
+	@NotNull(message = "is_recommended is a required field")
+	@NotEmpty(message = "is_recommended is a required field")	
 	private boolean is_recommended;
 
 // Getter Methods 
-
+	public Book() {
+		super();
+		
+	}
 	public int getId() {
 		return id;
 	}
 
-	public Book(int id, String name, String author, double price, boolean is_recommended) {
+
+	public Book(int id,
+			@NotNull(message = "name is a required field") @NotEmpty(message = "name is a required field") String name,
+			@NotNull(message = "author is a required field") @NotEmpty(message = "author is a required field") String author,
+			@NotNull(message = "price is a required field") @NotEmpty(message = "price is a required field") double price,
+			@NotNull(message = "is_recommended is a required field") @NotEmpty(message = "is_recommended is a required field") boolean is_recommended) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -21,7 +45,6 @@ public class Book {
 		this.price = price;
 		this.is_recommended = is_recommended;
 	}
-
 	public String getName() {
 		return name;
 	}

@@ -1,7 +1,7 @@
 package com.bank.bookstore.controller.exception;
 
 import java.util.ArrayList;
-import java.util.Date;
+
 import java.util.List;
 
 import org.springframework.boot.system.ApplicationPid;
@@ -27,9 +27,6 @@ public class ExceptionHandlerController extends ResponseEntityExceptionHandler {
 
 	@ExceptionHandler(Exception.class)
 	public final ResponseEntity<Object> handleAllExceptions(Exception ex, WebRequest request) {
-
-//	  ErrorMessage errorDetails = new ErrorMessage(new Date(), ex.getMessage(),
-//        request.getDescription(false));
 		ErrorMessage errorDetails = new ErrorMessage(HttpStatus.INTERNAL_SERVER_ERROR.toString(), ex.getMessage(),
 				pid.toString());
 

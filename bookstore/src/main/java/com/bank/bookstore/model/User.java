@@ -1,6 +1,6 @@
 package com.bank.bookstore.model;
 
-import java.util.ArrayList;
+import java.util.Date;
 
 import javax.persistence.Entity;
 
@@ -11,23 +11,33 @@ import javax.validation.constraints.NotNull;
 @Entity
 public class User {
 	@Id
-	private int userid;
-	@NotNull
-	@NotEmpty(message = "name is a required field")
+	private int id;
 	
+	@NotNull(message = "name is a required field")
+	@NotEmpty(message = "name is a required field")	
 	private String name;
-	@NotNull
-	@NotEmpty(message = "surname is a required field")
+	
+	@NotNull(message = "surname is a required field")
+	@NotEmpty(message = "surname is a required field")	
 	private String surname;
-	private String date_of_birth;
-	ArrayList<Object> books = new ArrayList<Object>();
+	
+	@NotNull(message = "date_of_birth is a required field")
+	private Date date_of_birth;
+	
+	@NotNull(message = "username is a required field")
+	@NotEmpty(message = "username is a required field")
+	private String username;
+	
+	@NotNull(message = "password is a required field")
+	@NotEmpty(message = "password is a required field")
+	private String password;
 
-	public int getUserid() {
-		return userid;
+	public int getId() {
+		return id;
 	}
 
-	public void setUserid(int userid) {
-		this.userid = userid;
+	public void setId(int id) {
+		this.id = id;
 	}
 
 	public String getName() {
@@ -38,15 +48,6 @@ public class User {
 		this.name = name;
 	}
 
-	public User(int userid, String name, String surname, String date_of_birth, ArrayList<Object> books) {
-		super();
-		this.userid = userid;
-		this.name = name;
-		this.surname = surname;
-		this.date_of_birth = date_of_birth;
-		this.books = books;
-	}
-
 	public String getSurname() {
 		return surname;
 	}
@@ -55,20 +56,46 @@ public class User {
 		this.surname = surname;
 	}
 
-	public String getDate_of_birth() {
+	public Date getDate_of_birth() {
 		return date_of_birth;
 	}
 
-	public void setDate_of_birth(String date_of_birth) {
+	public void setDate_of_birth(Date date_of_birth) {
 		this.date_of_birth = date_of_birth;
 	}
 
-	public ArrayList<Object> getBooks() {
-		return books;
+	public String getUsername() {
+		return username;
 	}
 
-	public void setBooks(ArrayList<Object> books) {
-		this.books = books;
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public User(
+			@NotNull(message = "name is a required field") @NotEmpty(message = "name is a required field") String name,
+			@NotNull(message = "surname is a required field") @NotEmpty(message = "surname is a required field") String surname,
+			@NotNull(message = "date_of_birth is a required field") Date date_of_birth,
+			@NotNull(message = "username is a required field") @NotEmpty(message = "username is a required field") String username,
+			@NotNull(message = "password is a required field") @NotEmpty(message = "password is a required field") String password) {
+		super();
+		this.name = name;
+		this.surname = surname;
+		this.date_of_birth = date_of_birth;
+		this.username = username;
+		this.password = password;
+	}
+	public User() {
+		super();
+		
 	}
 
 }
