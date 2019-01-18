@@ -13,11 +13,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.bank.bookstore.controller.process.BookProcess;
 import com.bank.bookstore.dao.BookDAO;
 import com.bank.bookstore.model.Book;
 import com.bank.bookstore.model.ResponseMessage;
-
-import com.bank.bookstore.process.BookProcess;
 
 
 @RestController

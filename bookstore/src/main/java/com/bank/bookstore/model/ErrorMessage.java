@@ -1,14 +1,24 @@
 package com.bank.bookstore.model;
 
+import java.util.Date;
+
 public class ErrorMessage {
-	public ErrorMessage(String errorCode, String errorMessage, String requestId) {
+
+	public String getErrorCode() {
+		return errorCode;
+	}
+	public ErrorMessage(String errorCode, String errorMessage, String processId) {
 		super();
 		this.errorCode = errorCode;
 		this.errorMessage = errorMessage;
-		this.requestId = requestId;
+		this.processId = processId;
+		this.timestamp = new Date();
 	}
-	public String getErrorCode() {
-		return errorCode;
+	public String getProcessId() {
+		return processId;
+	}
+	public void setProcessId(String processId) {
+		this.processId = processId;
 	}
 	public void setErrorCode(String errorCode) {
 		this.errorCode = errorCode;
@@ -19,13 +29,15 @@ public class ErrorMessage {
 	public void setErrorMessage(String errorMessage) {
 		this.errorMessage = errorMessage;
 	}
-	public String getRequestId() {
-		return requestId;
-	}
-	public void setRequestId(String requestId) {
-		this.requestId = requestId;
-	}
+	
 	private String errorCode;
 	private String errorMessage;
-	private String requestId;
+	private String processId;
+	private Date timestamp;
+	public Date getTimestamp() {
+		return timestamp;
+	}
+	public void setTimestamp(Date timestamp) {
+		this.timestamp = timestamp;
+	}
 }
