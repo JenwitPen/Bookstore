@@ -18,7 +18,7 @@ public class UserProcess {
 		this.userRepository = userRepository;
 	}
 
-	public ResponseMessage getAllBooksProcess() {
+	public ResponseMessage getAllUsersProcess() {
 		try {
 			List<User> uselist = userRepository.findAll();
 			return new ResponseMessage(true, uselist, HttpStatus.OK);
@@ -28,9 +28,17 @@ public class UserProcess {
 		}
 	}
 
-	public ResponseMessage addBookProcess(User user) {
+	public ResponseMessage addUserProcess(User user) {
 		try {
 			return new ResponseMessage(true, userRepository.insert(user), HttpStatus.OK);
+		} catch (Exception ex) {
+			throw new java.lang.RuntimeException(ex);
+		}
+
+	}
+	public ResponseMessage removeAllUser() {
+		try {
+			return new ResponseMessage(true, userRepository.deleteAll(), HttpStatus.OK);
 		} catch (Exception ex) {
 			throw new java.lang.RuntimeException(ex);
 		}

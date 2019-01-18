@@ -28,7 +28,15 @@ public class BookProcess {
 			throw new java.lang.RuntimeException(ex);
 		}
 	}
-
+	public ResponseMessage getRecommendationBooksProcess() {
+		try {		
+			List<Book> uselist = bookrepository.findRecommendation();	
+			return new ResponseMessage(true, uselist, HttpStatus.OK);
+		} catch (Exception ex) {
+			throw new java.lang.RuntimeException(ex);
+		}
+	}
+	
 	public ResponseMessage addBookProcess(Book book) {
 		try {
 

@@ -34,7 +34,7 @@ public class UserController {
 		logger.info("Starting");
 	
 		UserProcess bookProcess = new UserProcess(userRepository);
-		responseMessage = bookProcess.getAllBooksProcess();
+		responseMessage = bookProcess.getAllUsersProcess();
 		
 		logger.info("Finish");
 		if (responseMessage.getResponseStatus()) {
@@ -51,7 +51,7 @@ public class UserController {
 	
 		
 		UserProcess bookProcess = new UserProcess(userRepository);
-		responseMessage = bookProcess.addBookProcess(user);
+		responseMessage = bookProcess.addUserProcess(user);
 		
 		logger.info("Finish");
 		if (responseMessage.getResponseStatus()) {
@@ -62,12 +62,29 @@ public class UserController {
 	}
 	@RequestMapping(value = "/users", method = RequestMethod.DELETE)
 	@ResponseBody
-	public ResponseEntity<?> deleteUser(@RequestBody @Valid User user) {
+	public ResponseEntity<?> deleteUser() {
 		logger.info("Starting");
 	
 		
 		UserProcess bookProcess = new UserProcess(userRepository);
-		responseMessage = bookProcess.addBookProcess(user);
+		responseMessage = bookProcess.removeAllUser();
+		
+		logger.info("Finish");
+		if (responseMessage.getResponseStatus()) {
+			return new ResponseEntity<>(responseMessage.getResponseData(), headers, responseMessage.getHttpStatus());
+		} else {
+			return new ResponseEntity<>(responseMessage.getErrorMessage(), headers, responseMessage.getHttpStatus());
+		}
+	}
+	
+	@RequestMapping(value = "/users/orders", method = RequestMethod.POST)
+	@ResponseBody
+	public ResponseEntity<?> orderbook() {
+		logger.info("Starting");
+	
+		
+		UserProcess bookProcess = new UserProcess(userRepository);
+		responseMessage = bookProcess.removeAllUser();
 		
 		logger.info("Finish");
 		if (responseMessage.getResponseStatus()) {

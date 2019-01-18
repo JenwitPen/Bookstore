@@ -13,7 +13,7 @@ public class ResponseMessage {
 		HttpStatus = httpStatus;
 	}
 
-	public ResponseMessage(Boolean responseStatus, com.bank.bookstore.model.ErrorMessage errorMessage,
+	public ResponseMessage(Boolean responseStatus, com.bank.bookstore.model.ResponseError errorMessage,
 			org.springframework.http.HttpStatus httpStatus) {
 		super();
 		ResponseStatus = responseStatus;
@@ -38,11 +38,11 @@ public class ResponseMessage {
 		ResponseData = responseData;
 	}
 
-	public ErrorMessage getErrorMessage() {
+	public ResponseError getErrorMessage() {
 		return ErrorMessage;
 	}
 
-	public void setErrorMessage(ErrorMessage errorMessage) {
+	public void setErrorMessage(ResponseError errorMessage) {
 		ErrorMessage = errorMessage;
 	}
 
@@ -56,6 +56,6 @@ public class ResponseMessage {
 
 	private Boolean ResponseStatus;
 	private Object ResponseData;
-	private ErrorMessage ErrorMessage;
+	private ResponseError ErrorMessage;
 	private HttpStatus HttpStatus;
 }

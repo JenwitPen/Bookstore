@@ -46,7 +46,22 @@ public class BookController {
 		}
 
 	}
+	@RequestMapping(value = "/books/recommendation", method = RequestMethod.GET)
+	@ResponseBody
+	public ResponseEntity<?> getRecommendationBooks() {
+		logger.info("Starting");
+	
+		BookProcess bookProcess = new BookProcess(bookrepository);
+		responseMessage = bookProcess.getRecommendationBooksProcess();
 
+		logger.info("Finish");
+		if (responseMessage.getResponseStatus()) {
+			return new ResponseEntity<>(responseMessage.getResponseData(), headers, responseMessage.getHttpStatus());
+		} else {
+			return new ResponseEntity<>(responseMessage.getErrorMessage(), headers, responseMessage.getHttpStatus());
+		}
+
+	}
 	@RequestMapping(value = "/books", method = RequestMethod.POST)
 	@ResponseBody
 	public ResponseEntity<?> addBook(@RequestBody Book book) {

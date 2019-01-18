@@ -36,7 +36,9 @@ public class UserRepository {
 	public List<User> findAll() {
 		return jdbcTemplate.query("select * from user", new UserRowMapper());
 	}
-
+	public List<User> findRecomn() {
+		return jdbcTemplate.query("select * from user", new UserRowMapper());
+	}
 	public User findById(long id) {
 		return jdbcTemplate.queryForObject("select * from user where id=?", new Object[] { id },
 				new BeanPropertyRowMapper<User>(User.class));
@@ -45,7 +47,9 @@ public class UserRepository {
 	public int deleteById(long id) {
 		return jdbcTemplate.update("delete from user where id=?", new Object[] { id });
 	}
-
+	public int deleteAll() {
+		return jdbcTemplate.update("delete from user where (1=1)");
+	}
 	public int insert(User user) {
 		return jdbcTemplate.update(
 				"insert into user (name, surname, date_of_birth,username,password) " + "values(?,?,?,?,?)",

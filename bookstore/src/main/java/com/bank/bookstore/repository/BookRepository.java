@@ -32,7 +32,10 @@ public class BookRepository {
 	public List<Book> findAll() {
 		return jdbcTemplate.query("select * from book", new BookRowMapper());
 	}
-
+	public List<Book> findRecommendation() {
+		return jdbcTemplate.query("select * from book where is_recommended=true", new BookRowMapper());
+	}
+	
 	public Book findById(long id) {
 		return jdbcTemplate.queryForObject("select * from book where id=?", new Object[] { id },
 				new BeanPropertyRowMapper<Book>(Book.class));
