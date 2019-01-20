@@ -27,8 +27,7 @@ public class ExceptionHandlerController extends ResponseEntityExceptionHandler {
 
 	@ExceptionHandler(Exception.class)
 	public final ResponseEntity<Object> handleAllExceptions(Exception ex, WebRequest request) {
-		ResponseError errorDetails = new ResponseError(HttpStatus.INTERNAL_SERVER_ERROR.toString(), ex.getMessage(),
-				pid.toString());
+		ResponseError errorDetails = new ResponseError( ex.getMessage());
 
 		return new ResponseEntity<>(errorDetails, headers, HttpStatus.INTERNAL_SERVER_ERROR);
 	}
@@ -50,8 +49,7 @@ public class ExceptionHandlerController extends ResponseEntityExceptionHandler {
 		for (final ObjectError error : ex.getBindingResult().getGlobalErrors()) {
 			errors.add(error.getObjectName() + ": " + error.getDefaultMessage());
 		}
-		ResponseError errorDetails = new ResponseError(HttpStatus.BAD_REQUEST.toString(), errors.toString(),
-				pid.toString());
+		ResponseError errorDetails = new ResponseError( errors.toString());
 
 		return new ResponseEntity<>(errorDetails, headers, HttpStatus.BAD_REQUEST);
 

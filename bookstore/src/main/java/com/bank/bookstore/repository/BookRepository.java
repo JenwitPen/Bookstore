@@ -8,17 +8,16 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
-
-import com.bank.bookstore.model.Book;
+import com.bank.bookstore.model.DB.BookDB;
 @Repository
 public class BookRepository {
 	@Autowired
 	JdbcTemplate jdbcTemplate;
 
-	class BookRowMapper implements RowMapper<Book> {
+	class BookDBRowMapper implements RowMapper<BookDB> {
 		@Override
-		public Book mapRow(ResultSet rs, int rowNum) throws SQLException {
-			Book book = new Book();
+		public BookDB mapRow(ResultSet rs, int rowNum) throws SQLException {
+			BookDB book = new BookDB();
 			book.setId(rs.getInt("id"));
 			book.setName(rs.getString("name"));
 			book.setAuthor(rs.getString("author"));
@@ -29,28 +28,28 @@ public class BookRepository {
 
 	}
 
-	public List<Book> findAll() {
-		return jdbcTemplate.query("select * from book", new BookRowMapper());
+	public List<BookDB> findAll() {
+		return jdbcTemplate.query("select * from book", new BookDBRowMapper());
 	}
-	public List<Book> findRecommendation() {
-		return jdbcTemplate.query("select * from book where is_recommended=true", new BookRowMapper());
+	public List<BookDB> findRecommendation() {
+		return jdbcTemplate.query("select * from book where is_recommended=true", new BookDBRowMapper());
 	}
 	
-	public Book findById(long id) {
+	public BookDB findById(long id) {
 		return jdbcTemplate.queryForObject("select * from book where id=?", new Object[] { id },
-				new BeanPropertyRowMapper<Book>(Book.class));
+				new BeanPropertyRowMapper<BookDB>(BookDB.class));
 	}
 
 	public int deleteById(long id) {
 		return jdbcTemplate.update("delete from book where id=?", new Object[] { id });
 	}
 	
-	public int insert(Book book) {
+	public int insert(BookDB book) {
 		return jdbcTemplate.update("insert into book (id, name, author,price,is_recommended) " + "values(?,?,?,?,?)",
 				new Object[] { book.getId(), book.getName(), book.getAuthor(),book.getPrice(),book.getIs_recommended() });
 	}
 
-	public int update(Book book) {
+	public int update(BookDB book) {
 		return jdbcTemplate.update("update book " + " set name = ?, author = ?, price = ? , is_recommended = ?  " + " where id = ?",
 				new Object[] { book.getName(), book.getAuthor(),book.getPrice(),book.getIs_recommended(), book.getId() });
 	}

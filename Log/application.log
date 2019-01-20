@@ -1,0 +1,545 @@
+7444 2019-01-19 09:26:33 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 7444 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+7444 2019-01-19 09:26:33 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+7444 2019-01-19 09:26:33 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+7444 2019-01-19 09:26:37 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.695 seconds (JVM running for 4.763)
+7444 2019-01-19 09:27:13 INFO  com.bank.bookstore.controller.UserController getAllUser - Starting
+7444 2019-01-19 09:27:13 INFO  com.bank.bookstore.controller.UserController getAllUser - Finish
+15748 2019-01-19 09:28:50 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 09:28:50 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 09:28:50 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 09:28:53 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.798 seconds (JVM running for 5.083)
+15748 2019-01-19 09:29:29 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 09:29:29 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 09:29:29 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 09:29:30 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.162 seconds (JVM running for 41.623)
+15748 2019-01-19 10:51:09 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 10:51:09 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 10:51:09 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 10:51:13 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.165 seconds (JVM running for 4944.319)
+15748 2019-01-19 10:51:30 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 10:51:30 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 10:51:30 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 10:51:33 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.589 seconds (JVM running for 4964.735)
+15748 2019-01-19 10:52:38 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 10:52:38 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 10:52:38 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 10:52:41 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.117 seconds (JVM running for 5032.87)
+15748 2019-01-19 10:52:51 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 10:52:51 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 10:52:51 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 10:52:56 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 10:52:56 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 10:52:56 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 10:54:47 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 10:54:47 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 10:54:47 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 10:55:25 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 10:55:25 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 10:55:25 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 10:55:38 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 10:55:38 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 10:55:38 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 10:55:44 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 10:55:44 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 10:55:44 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 10:55:59 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 10:55:59 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 10:55:59 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 10:56:19 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 10:56:19 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 10:56:19 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 10:56:27 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 10:56:27 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 10:56:27 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 10:57:43 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 10:57:43 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 10:57:43 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 11:01:39 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 11:01:39 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 11:01:39 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 11:02:32 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 11:02:32 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 11:02:32 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 11:04:44 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 11:04:44 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 11:04:44 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 11:06:42 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 11:06:42 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 11:06:42 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 11:09:06 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 11:09:06 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 11:09:06 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 11:09:49 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 11:09:49 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 11:09:49 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 11:11:31 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 11:11:31 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 11:11:31 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 11:13:05 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 11:13:05 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 11:13:05 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 11:13:11 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 11:13:11 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 11:13:11 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 11:13:37 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 11:13:37 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 11:13:37 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 11:14:01 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 11:14:01 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 11:14:01 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 11:15:14 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 11:15:14 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 11:15:14 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 11:18:18 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 11:18:18 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 11:18:18 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 11:18:31 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 11:18:31 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 11:18:31 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 11:18:46 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 11:18:46 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 11:18:46 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 11:20:02 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 11:20:02 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 11:20:02 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 11:20:14 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 11:20:14 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 11:20:14 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15748 2019-01-19 11:20:36 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15748 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15748 2019-01-19 11:20:36 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15748 2019-01-19 11:20:36 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+3216 2019-01-19 11:22:14 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 3216 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+3216 2019-01-19 11:22:14 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+3216 2019-01-19 11:22:14 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+3216 2019-01-19 11:22:24 DEBUG com.bank.bookstore.security.JwtAuthTokenFilter init - Filter 'authenticationJwtTokenFilter' configured for use
+3216 2019-01-19 11:22:30 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 16.372 seconds (JVM running for 21.415)
+3216 2019-01-19 11:22:35 ERROR com.bank.bookstore.security.JwtAuthEntryPoint commence - Unauthorized error. Message - Full authentication is required to access this resource
+3216 2019-01-19 11:22:36 ERROR com.bank.bookstore.security.JwtAuthEntryPoint commence - Unauthorized error. Message - Full authentication is required to access this resource
+3216 2019-01-19 11:22:38 ERROR com.bank.bookstore.security.JwtAuthEntryPoint commence - Unauthorized error. Message - Full authentication is required to access this resource
+3216 2019-01-19 11:22:38 ERROR com.bank.bookstore.security.JwtAuthEntryPoint commence - Unauthorized error. Message - Full authentication is required to access this resource
+3216 2019-01-19 11:24:18 ERROR com.bank.bookstore.security.JwtAuthEntryPoint commence - Unauthorized error. Message - Full authentication is required to access this resource
+3216 2019-01-19 11:25:56 ERROR com.bank.bookstore.security.JwtAuthEntryPoint commence - Unauthorized error. Message - Full authentication is required to access this resource
+9124 2019-01-19 11:27:28 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 9124 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+9124 2019-01-19 11:27:28 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+9124 2019-01-19 11:27:28 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+9124 2019-01-19 11:27:36 DEBUG com.bank.bookstore.security.JwtAuthTokenFilter init - Filter 'authenticationJwtTokenFilter' configured for use
+9124 2019-01-19 11:27:41 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 13.954 seconds (JVM running for 18.416)
+3544 2019-01-19 11:28:44 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 3544 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+3544 2019-01-19 11:28:44 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+3544 2019-01-19 11:28:44 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+3544 2019-01-19 11:28:52 DEBUG com.bank.bookstore.security.JwtAuthTokenFilter init - Filter 'authenticationJwtTokenFilter' configured for use
+3544 2019-01-19 11:28:58 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 15.364 seconds (JVM running for 19.864)
+3544 2019-01-19 11:28:58 ERROR com.bank.bookstore.security.JwtAuthEntryPoint commence - Unauthorized error. Message - Full authentication is required to access this resource
+3544 2019-01-19 11:28:59 ERROR com.bank.bookstore.security.JwtAuthEntryPoint commence - Unauthorized error. Message - Full authentication is required to access this resource
+3544 2019-01-19 11:29:04 ERROR com.bank.bookstore.security.JwtAuthEntryPoint commence - Unauthorized error. Message - Full authentication is required to access this resource
+3544 2019-01-19 11:31:00 ERROR com.bank.bookstore.security.JwtAuthEntryPoint commence - Unauthorized error. Message - Full authentication is required to access this resource
+3544 2019-01-19 11:31:44 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 3544 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+3544 2019-01-19 11:31:44 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+3544 2019-01-19 11:31:44 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+3544 2019-01-19 11:31:54 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 3544 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+3544 2019-01-19 11:31:54 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+3544 2019-01-19 11:31:54 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13000 2019-01-19 11:32:56 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 13000 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+13000 2019-01-19 11:32:56 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+13000 2019-01-19 11:32:56 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13000 2019-01-19 11:33:06 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 10.736 seconds (JVM running for 14.238)
+1780 2019-01-19 11:33:55 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 1780 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+1780 2019-01-19 11:33:55 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+1780 2019-01-19 11:33:55 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+1780 2019-01-19 11:34:05 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 11.089 seconds (JVM running for 14.763)
+7804 2019-01-19 11:34:36 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 7804 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+7804 2019-01-19 11:34:36 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+7804 2019-01-19 11:34:36 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+7804 2019-01-19 11:34:45 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 10.376 seconds (JVM running for 13.967)
+2620 2019-01-19 16:16:47 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 2620 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+2620 2019-01-19 16:16:47 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2620 2019-01-19 16:16:47 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2620 2019-01-19 16:16:51 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.072 seconds (JVM running for 5.143)
+2620 2019-01-19 16:17:06 DEBUG com.bank.bookstore.security.jwt.JWTLoginFilter doFilter - Request is to process authentication
+1860 2019-01-19 16:18:11 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 1860 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+1860 2019-01-19 16:18:11 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+1860 2019-01-19 16:18:11 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+1860 2019-01-19 16:18:14 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.626 seconds (JVM running for 4.717)
+1860 2019-01-19 16:18:22 DEBUG com.bank.bookstore.security.jwt.JWTLoginFilter doFilter - Request is to process authentication
+1860 2019-01-19 16:19:02 DEBUG com.bank.bookstore.security.jwt.JWTLoginFilter doFilter - Request is to process authentication
+1860 2019-01-19 16:19:10 DEBUG com.bank.bookstore.security.jwt.JWTLoginFilter doFilter - Request is to process authentication
+1860 2019-01-19 16:19:20 DEBUG com.bank.bookstore.security.jwt.JWTLoginFilter doFilter - Request is to process authentication
+1860 2019-01-19 16:19:36 DEBUG com.bank.bookstore.security.jwt.JWTLoginFilter doFilter - Request is to process authentication
+1860 2019-01-19 16:19:45 DEBUG com.bank.bookstore.security.jwt.JWTLoginFilter doFilter - Request is to process authentication
+3092 2019-01-19 16:20:45 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 3092 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+3092 2019-01-19 16:20:45 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+3092 2019-01-19 16:20:45 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+3092 2019-01-19 16:20:50 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.582 seconds (JVM running for 5.947)
+3092 2019-01-19 16:21:02 DEBUG com.bank.bookstore.security.jwt.JWTLoginFilter doFilter - Request is to process authentication
+13428 2019-01-19 16:22:48 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 13428 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+13428 2019-01-19 16:22:48 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+13428 2019-01-19 16:22:48 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13428 2019-01-19 16:22:52 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.286 seconds (JVM running for 5.594)
+13428 2019-01-19 16:22:58 DEBUG com.bank.bookstore.security.jwt.JWTLoginFilter doFilter - Request is to process authentication
+11272 2019-01-19 16:41:42 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 11272 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+11272 2019-01-19 16:41:42 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+11272 2019-01-19 16:41:42 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+11272 2019-01-19 16:41:47 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.746 seconds (JVM running for 6.056)
+11272 2019-01-19 16:42:20 DEBUG com.bank.bookstore.security.jwt.JWTLoginFilter doFilter - Request is to process authentication
+9340 2019-01-19 20:34:24 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 9340 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+9340 2019-01-19 20:34:24 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+9340 2019-01-19 20:34:24 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+9340 2019-01-19 20:34:28 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.171 seconds (JVM running for 5.395)
+9340 2019-01-19 20:36:08 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 9340 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+9340 2019-01-19 20:36:08 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+9340 2019-01-19 20:36:08 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+9340 2019-01-19 20:36:09 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.266 seconds (JVM running for 106.605)
+9340 2019-01-19 20:38:24 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 9340 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+9340 2019-01-19 20:38:24 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+9340 2019-01-19 20:38:24 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+9340 2019-01-19 20:38:26 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.241 seconds (JVM running for 243.169)
+9340 2019-01-19 20:39:09 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 9340 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+9340 2019-01-19 20:39:09 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+9340 2019-01-19 20:39:09 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+9340 2019-01-19 20:39:10 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.25 seconds (JVM running for 287.41)
+2348 2019-01-19 20:39:25 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 2348 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+2348 2019-01-19 20:39:25 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2348 2019-01-19 20:39:25 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+10524 2019-01-19 20:41:15 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 10524 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+10524 2019-01-19 20:41:15 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+10524 2019-01-19 20:41:15 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+10524 2019-01-19 20:41:18 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.764 seconds (JVM running for 4.9)
+10524 2019-01-19 20:44:32 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+12268 2019-01-19 20:44:55 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 12268 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+12268 2019-01-19 20:44:55 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+12268 2019-01-19 20:44:55 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+12268 2019-01-19 20:45:00 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.463 seconds (JVM running for 5.788)
+12268 2019-01-19 20:45:19 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+12268 2019-01-19 20:48:42 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 12268 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+12268 2019-01-19 20:48:42 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+12268 2019-01-19 20:48:42 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+12268 2019-01-19 20:48:45 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.111 seconds (JVM running for 231.21)
+5548 2019-01-19 20:49:04 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 5548 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+5548 2019-01-19 20:49:04 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+5548 2019-01-19 20:49:04 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+5548 2019-01-19 20:49:08 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.833 seconds (JVM running for 4.941)
+5548 2019-01-19 20:49:14 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+5548 2019-01-19 20:49:14 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+14628 2019-01-19 21:03:25 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 14628 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+14628 2019-01-19 21:03:25 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+14628 2019-01-19 21:03:25 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+14628 2019-01-19 21:03:28 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.786 seconds (JVM running for 4.983)
+14628 2019-01-19 21:03:53 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+14628 2019-01-19 21:03:53 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+13708 2019-01-19 21:04:44 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 13708 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+13708 2019-01-19 21:04:44 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+13708 2019-01-19 21:04:44 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13708 2019-01-19 21:04:48 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.819 seconds (JVM running for 4.937)
+13708 2019-01-19 21:05:06 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+13708 2019-01-19 21:05:06 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+2180 2019-01-19 21:09:13 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 2180 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+2180 2019-01-19 21:09:13 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2180 2019-01-19 21:09:13 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2180 2019-01-19 21:09:17 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.675 seconds (JVM running for 4.897)
+2180 2019-01-19 21:09:23 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+2180 2019-01-19 21:09:23 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+13008 2019-01-19 21:10:05 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 13008 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+13008 2019-01-19 21:10:05 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+13008 2019-01-19 21:10:05 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13008 2019-01-19 21:10:09 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.707 seconds (JVM running for 6.148)
+13008 2019-01-19 21:10:14 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+13008 2019-01-19 21:10:44 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+13008 2019-01-19 21:11:32 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+13008 2019-01-19 21:13:23 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+13008 2019-01-19 21:16:19 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 13008 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+13008 2019-01-19 21:16:19 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+13008 2019-01-19 21:16:19 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+9848 2019-01-19 21:17:39 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 9848 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+9848 2019-01-19 21:17:39 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+9848 2019-01-19 21:17:39 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+9848 2019-01-19 21:17:43 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.816 seconds (JVM running for 4.927)
+9848 2019-01-19 21:17:46 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+9848 2019-01-19 21:17:46 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+13944 2019-01-19 21:18:31 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 13944 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+13944 2019-01-19 21:18:31 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+13944 2019-01-19 21:18:31 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13944 2019-01-19 21:18:36 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.474 seconds (JVM running for 5.766)
+13944 2019-01-19 21:18:38 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+8736 2019-01-19 21:19:39 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 8736 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+8736 2019-01-19 21:19:39 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+8736 2019-01-19 21:19:39 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+8736 2019-01-19 21:19:44 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.609 seconds (JVM running for 5.95)
+8736 2019-01-19 21:19:51 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+8736 2019-01-19 21:19:57 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+1296 2019-01-19 21:21:16 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 1296 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+1296 2019-01-19 21:21:16 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+1296 2019-01-19 21:21:16 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+1296 2019-01-19 21:21:22 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 6.143 seconds (JVM running for 7.646)
+1296 2019-01-19 21:21:27 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+1296 2019-01-19 21:21:35 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+3608 2019-01-19 21:29:15 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 3608 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+3608 2019-01-19 21:29:15 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+3608 2019-01-19 21:29:15 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+3608 2019-01-19 21:29:20 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 5.109 seconds (JVM running for 6.749)
+3608 2019-01-19 21:29:38 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+3608 2019-01-19 21:29:44 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+14468 2019-01-19 21:30:40 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 14468 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+14468 2019-01-19 21:30:40 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+14468 2019-01-19 21:30:40 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+14468 2019-01-19 21:30:45 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.902 seconds (JVM running for 6.507)
+14468 2019-01-19 21:30:46 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+14468 2019-01-19 21:30:52 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+15256 2019-01-19 21:32:46 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15256 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15256 2019-01-19 21:32:46 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15256 2019-01-19 21:32:46 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15256 2019-01-19 21:32:51 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 5.376 seconds (JVM running for 6.889)
+15256 2019-01-19 21:33:35 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+15256 2019-01-19 21:33:51 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+15256 2019-01-19 21:35:06 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15256 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15256 2019-01-19 21:35:06 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15256 2019-01-19 21:35:06 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15256 2019-01-19 21:35:08 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.618 seconds (JVM running for 143.611)
+7640 2019-01-19 21:36:11 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 7640 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+7640 2019-01-19 21:36:11 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+7640 2019-01-19 21:36:11 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+7640 2019-01-19 21:36:16 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.954 seconds (JVM running for 6.465)
+7640 2019-01-19 21:36:19 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+7640 2019-01-19 21:36:25 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+14096 2019-01-19 21:37:41 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 14096 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+14096 2019-01-19 21:37:41 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+14096 2019-01-19 21:37:41 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+14096 2019-01-19 21:37:45 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.756 seconds (JVM running for 6.186)
+14096 2019-01-19 21:38:04 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+14096 2019-01-19 21:38:20 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+13680 2019-01-19 21:39:11 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 13680 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+13680 2019-01-19 21:39:11 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+13680 2019-01-19 21:39:11 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13680 2019-01-19 21:39:14 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.078 seconds (JVM running for 5.371)
+13680 2019-01-19 21:39:22 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+13680 2019-01-19 21:39:22 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+2548 2019-01-19 21:39:56 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 2548 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+2548 2019-01-19 21:39:56 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2548 2019-01-19 21:39:56 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13680 2019-01-19 21:39:56 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 13680 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+13680 2019-01-19 21:39:56 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+13680 2019-01-19 21:39:56 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13680 2019-01-19 21:39:58 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.454 seconds (JVM running for 48.613)
+13680 2019-01-19 21:40:11 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+13680 2019-01-19 21:40:11 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+4348 2019-01-19 21:40:38 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 4348 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+4348 2019-01-19 21:40:38 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+4348 2019-01-19 21:40:38 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+4348 2019-01-19 21:40:43 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 5.246 seconds (JVM running for 6.493)
+4348 2019-01-19 21:40:55 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+4348 2019-01-19 21:40:55 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+4348 2019-01-19 21:41:16 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+4348 2019-01-19 21:41:16 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+4348 2019-01-19 21:42:52 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 4348 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+4348 2019-01-19 21:42:52 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+4348 2019-01-19 21:42:52 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+12272 2019-01-19 21:42:57 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 12272 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+12272 2019-01-19 21:42:57 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+12272 2019-01-19 21:42:57 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+12272 2019-01-19 21:43:01 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.976 seconds (JVM running for 5.122)
+12272 2019-01-19 21:43:03 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+12272 2019-01-19 21:43:03 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+12272 2019-01-19 21:43:51 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 12272 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+12272 2019-01-19 21:43:51 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+12272 2019-01-19 21:43:51 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+12272 2019-01-19 21:43:53 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.252 seconds (JVM running for 57.126)
+12272 2019-01-19 21:43:59 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 12272 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+12272 2019-01-19 21:43:59 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+12272 2019-01-19 21:43:59 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+7752 2019-01-19 21:44:00 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 7752 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+7752 2019-01-19 21:44:00 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+7752 2019-01-19 21:44:00 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+12272 2019-01-19 21:44:01 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.528 seconds (JVM running for 65.519)
+12272 2019-01-19 21:44:16 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+12272 2019-01-19 21:44:16 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+8240 2019-01-19 21:44:52 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 8240 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+8240 2019-01-19 21:44:52 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+8240 2019-01-19 21:44:52 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+8240 2019-01-19 21:44:56 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.87 seconds (JVM running for 5.084)
+8240 2019-01-19 21:45:08 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+8240 2019-01-19 21:45:08 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+8240 2019-01-19 21:45:39 INFO  com.bank.bookstore.controller.UserController getAllUser - Starting
+8240 2019-01-19 21:45:39 INFO  com.bank.bookstore.controller.UserController getAllUser - Finish
+15440 2019-01-19 21:48:35 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15440 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15440 2019-01-19 21:48:35 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15440 2019-01-19 21:48:35 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15440 2019-01-19 21:48:39 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.691 seconds (JVM running for 4.862)
+15440 2019-01-19 21:48:42 INFO  com.bank.bookstore.controller.UserController getAllUser - Starting
+15440 2019-01-19 21:48:42 INFO  com.bank.bookstore.controller.UserController getAllUser - Finish
+1496 2019-01-19 22:00:50 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 1496 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+1496 2019-01-19 22:00:50 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+1496 2019-01-19 22:00:50 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+1496 2019-01-19 22:00:54 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.736 seconds (JVM running for 4.912)
+1496 2019-01-19 22:01:03 INFO  com.bank.bookstore.controller.UserController getAllUser - Starting
+1496 2019-01-19 22:01:03 INFO  com.bank.bookstore.controller.UserController getAllUser - Finish
+1496 2019-01-19 22:08:02 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 1496 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+1496 2019-01-19 22:08:02 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+1496 2019-01-19 22:08:02 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+1496 2019-01-19 22:08:03 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.431 seconds (JVM running for 434.541)
+1496 2019-01-19 22:09:27 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 1496 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+1496 2019-01-19 22:09:27 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+1496 2019-01-19 22:09:27 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+1496 2019-01-19 22:09:28 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.12 seconds (JVM running for 519.735)
+1496 2019-01-19 22:10:51 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 1496 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+1496 2019-01-19 22:10:51 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+1496 2019-01-19 22:10:51 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+1496 2019-01-19 22:10:52 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.065 seconds (JVM running for 602.889)
+1496 2019-01-19 22:14:10 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 1496 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+1496 2019-01-19 22:14:10 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+1496 2019-01-19 22:14:10 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+1496 2019-01-19 22:14:11 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.082 seconds (JVM running for 802.482)
+1496 2019-01-19 22:14:31 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 1496 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+1496 2019-01-19 22:14:31 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+1496 2019-01-19 22:14:31 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+1496 2019-01-19 22:14:32 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.136 seconds (JVM running for 823.483)
+1496 2019-01-19 22:15:46 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 1496 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+1496 2019-01-19 22:15:46 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+1496 2019-01-19 22:15:46 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+1496 2019-01-19 22:15:47 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.075 seconds (JVM running for 898.677)
+1496 2019-01-19 22:19:39 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 1496 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+1496 2019-01-19 22:19:39 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+1496 2019-01-19 22:19:39 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+1496 2019-01-19 22:19:40 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.041 seconds (JVM running for 1131.369)
+16988 2019-01-19 22:21:15 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 16988 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+16988 2019-01-19 22:21:15 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+16988 2019-01-19 22:21:15 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+1496 2019-01-19 22:21:15 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 1496 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+1496 2019-01-19 22:21:15 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+1496 2019-01-19 22:21:15 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+1496 2019-01-19 22:21:17 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.335 seconds (JVM running for 1227.934)
+1496 2019-01-19 22:21:30 INFO  com.bank.bookstore.controller.UserController getAllUser - Starting
+16816 2019-01-19 22:21:46 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 16816 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+16816 2019-01-19 22:21:46 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+16816 2019-01-19 22:21:46 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16816 2019-01-19 22:21:50 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.368 seconds (JVM running for 5.764)
+16816 2019-01-19 22:21:53 INFO  com.bank.bookstore.controller.UserController getAllUser - Starting
+16944 2019-01-19 22:38:14 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 16944 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+16944 2019-01-19 22:38:14 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+16944 2019-01-19 22:38:14 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16656 2019-01-19 22:38:30 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 16656 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+16656 2019-01-19 22:38:30 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+16656 2019-01-19 22:38:30 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16656 2019-01-19 22:38:34 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.338 seconds (JVM running for 5.896)
+16656 2019-01-19 22:38:40 INFO  com.bank.bookstore.controller.UserController getAllUser - Starting
+2772 2019-01-19 22:48:45 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 2772 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+2772 2019-01-19 22:48:45 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2772 2019-01-19 22:48:45 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2772 2019-01-19 22:48:48 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.833 seconds (JVM running for 5.209)
+2772 2019-01-19 22:48:52 INFO  com.bank.bookstore.controller.UserController getAllUser - Starting
+6164 2019-01-19 22:49:39 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 6164 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+6164 2019-01-19 22:49:39 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+6164 2019-01-19 22:49:39 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+6164 2019-01-19 22:49:43 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.707 seconds (JVM running for 6.165)
+6164 2019-01-19 22:50:00 INFO  com.bank.bookstore.controller.UserController getAllUser - Starting
+8920 2019-01-19 22:57:11 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 8920 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+8920 2019-01-19 22:57:11 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+8920 2019-01-19 22:57:11 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+8920 2019-01-19 22:57:15 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.713 seconds (JVM running for 4.861)
+8920 2019-01-19 22:57:20 INFO  com.bank.bookstore.controller.UserController getAllUser - Starting
+15304 2019-01-19 22:57:36 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 15304 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+15304 2019-01-19 22:57:36 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+15304 2019-01-19 22:57:36 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+15304 2019-01-19 22:57:41 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.443 seconds (JVM running for 5.765)
+15304 2019-01-19 22:57:43 INFO  com.bank.bookstore.controller.UserController getAllUser - Starting
+16204 2019-01-19 22:59:24 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 16204 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+16204 2019-01-19 22:59:24 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+16204 2019-01-19 22:59:24 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16204 2019-01-19 22:59:28 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.298 seconds (JVM running for 5.759)
+16204 2019-01-19 22:59:33 INFO  com.bank.bookstore.controller.UserController getAllUser - Starting
+13116 2019-01-19 23:01:45 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 13116 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+13116 2019-01-19 23:01:45 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+13116 2019-01-19 23:01:45 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13116 2019-01-19 23:01:48 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 3.951 seconds (JVM running for 5.109)
+13116 2019-01-19 23:01:57 INFO  com.bank.bookstore.controller.UserController getAllUser - Starting
+13116 2019-01-19 23:01:57 INFO  com.bank.bookstore.controller.UserController getAllUser - Finish
+13116 2019-01-19 23:02:42 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 13116 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+13116 2019-01-19 23:02:42 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+13116 2019-01-19 23:02:42 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+16580 2019-01-19 23:02:43 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 16580 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+16580 2019-01-19 23:02:43 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+16580 2019-01-19 23:02:43 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13116 2019-01-19 23:02:44 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.45 seconds (JVM running for 60.345)
+13116 2019-01-19 23:02:50 INFO  com.bank.bookstore.controller.UserController getAllUser - Starting
+13116 2019-01-19 23:02:50 INFO  com.bank.bookstore.controller.UserController getAllUser - Finish
+13116 2019-01-19 23:08:53 INFO  com.bank.bookstore.controller.UserController deleteUser - Starting
+13116 2019-01-19 23:08:53 INFO  com.bank.bookstore.controller.UserController deleteUser - Finish
+13116 2019-01-19 23:09:21 INFO  com.bank.bookstore.controller.UserController getAllUser - Starting
+13116 2019-01-19 23:09:21 INFO  com.bank.bookstore.controller.UserController getAllUser - Finish
+13116 2019-01-19 23:09:32 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+13116 2019-01-19 23:09:32 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+13116 2019-01-19 23:09:33 INFO  com.bank.bookstore.controller.UserController addUser - Starting
+13116 2019-01-19 23:09:33 INFO  com.bank.bookstore.controller.UserController addUser - Finish
+13116 2019-01-19 23:09:37 INFO  com.bank.bookstore.controller.UserController getAllUser - Starting
+13116 2019-01-19 23:09:37 INFO  com.bank.bookstore.controller.UserController getAllUser - Finish
+13116 2019-01-19 23:49:29 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 13116 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+13116 2019-01-19 23:49:29 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+13116 2019-01-19 23:49:29 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13116 2019-01-19 23:49:31 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.236 seconds (JVM running for 2867.319)
+13116 2019-01-19 23:50:16 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 13116 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+13116 2019-01-19 23:50:16 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+13116 2019-01-19 23:50:16 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13116 2019-01-19 23:50:17 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.186 seconds (JVM running for 2913.447)
+13116 2019-01-19 23:51:48 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 13116 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+13116 2019-01-19 23:51:48 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+13116 2019-01-19 23:51:48 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13116 2019-01-19 23:51:49 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.067 seconds (JVM running for 3005.652)
+13116 2019-01-19 23:58:19 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 13116 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+13116 2019-01-19 23:58:19 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+13116 2019-01-19 23:58:19 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13116 2019-01-19 23:58:20 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.091 seconds (JVM running for 3397.062)
+13116 2019-01-19 23:58:45 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 13116 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+13116 2019-01-19 23:58:45 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+13116 2019-01-19 23:58:45 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13116 2019-01-19 23:58:46 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.057 seconds (JVM running for 3422.95)
+13116 2019-01-20 00:00:19 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 13116 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+13116 2019-01-20 00:00:19 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+13116 2019-01-20 00:00:19 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13116 2019-01-20 00:00:21 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.066 seconds (JVM running for 3517.177)
+13116 2019-01-20 00:11:27 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 13116 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+13116 2019-01-20 00:11:27 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+13116 2019-01-20 00:11:27 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13116 2019-01-20 00:11:28 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.035 seconds (JVM running for 4184.575)
+13116 2019-01-20 00:12:33 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 13116 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+13116 2019-01-20 00:12:33 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+13116 2019-01-20 00:12:33 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+13116 2019-01-20 00:12:34 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.054 seconds (JVM running for 4250.67)
+9468 2019-01-20 00:17:00 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 9468 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+9468 2019-01-20 00:17:00 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+9468 2019-01-20 00:17:00 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+9468 2019-01-20 00:17:05 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.578 seconds (JVM running for 6.011)
+7904 2019-01-20 12:00:00 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 7904 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+7904 2019-01-20 12:00:00 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+7904 2019-01-20 12:00:00 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+7904 2019-01-20 12:00:05 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 5.339 seconds (JVM running for 7.043)
+7904 2019-01-20 12:03:33 INFO  com.bank.bookstore.controller.UserController orderBook - Starting
+7904 2019-01-20 12:03:59 INFO  com.bank.bookstore.controller.UserController orderBook - Finish
+7904 2019-01-20 12:07:42 INFO  com.bank.bookstore.controller.UserController getAllUser - Starting
+7904 2019-01-20 12:07:46 INFO  com.bank.bookstore.controller.UserController getAllUser - Finish
+7904 2019-01-20 12:07:52 INFO  com.bank.bookstore.controller.UserController getAllUser - Starting
+7904 2019-01-20 12:07:54 INFO  com.bank.bookstore.controller.UserController getAllUser - Finish
+7904 2019-01-20 12:08:19 INFO  com.bank.bookstore.controller.UserController orderBook - Starting
+7904 2019-01-20 12:08:21 INFO  com.bank.bookstore.controller.UserController orderBook - Finish
+7904 2019-01-20 12:10:40 INFO  com.bank.bookstore.controller.UserController orderBook - Starting
+7904 2019-01-20 12:10:41 INFO  com.bank.bookstore.controller.UserController orderBook - Finish
+7904 2019-01-20 12:11:47 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 7904 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+7904 2019-01-20 12:11:47 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+7904 2019-01-20 12:11:47 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+7904 2019-01-20 12:11:49 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.636 seconds (JVM running for 711.231)
+7904 2019-01-20 12:12:45 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 7904 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+7904 2019-01-20 12:12:45 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+7904 2019-01-20 12:12:45 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+7904 2019-01-20 12:12:47 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.81 seconds (JVM running for 769.18)
+7904 2019-01-20 12:13:14 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 7904 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+7904 2019-01-20 12:13:14 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+7904 2019-01-20 12:13:14 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+7904 2019-01-20 12:13:15 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.766 seconds (JVM running for 797.852)
+7904 2019-01-20 12:15:09 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 7904 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+7904 2019-01-20 12:15:09 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+7904 2019-01-20 12:15:09 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+7904 2019-01-20 12:15:11 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 1.82 seconds (JVM running for 913.05)
+7904 2019-01-20 12:15:26 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 7904 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+7904 2019-01-20 12:15:26 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+7904 2019-01-20 12:15:27 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+7344 2019-01-20 12:44:20 INFO  com.bank.bookstore.BookstoreApplication logStarting - Starting BookstoreApplication on JENWIT-PC with PID 7344 (E:\Git\Bookstore\bookstore\target\classes started by Jenwit-Pc in E:\Git\Bookstore\bookstore)
+7344 2019-01-20 12:44:20 DEBUG com.bank.bookstore.BookstoreApplication logStarting - Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+7344 2019-01-20 12:44:20 INFO  com.bank.bookstore.BookstoreApplication logStartupProfileInfo - No active profile set, falling back to default profiles: default
+7344 2019-01-20 12:44:24 INFO  com.bank.bookstore.BookstoreApplication logStarted - Started BookstoreApplication in 4.16 seconds (JVM running for 5.269)

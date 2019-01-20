@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bank.bookstore.model.Book;
 import com.bank.bookstore.model.ResponseMessage;
+import com.bank.bookstore.model.Request.BookRequest;
 import com.bank.bookstore.process.BookProcess;
 import com.bank.bookstore.repository.BookRepository;
 
@@ -64,11 +64,11 @@ public class BookController {
 	}
 	@RequestMapping(value = "/books", method = RequestMethod.POST)
 	@ResponseBody
-	public ResponseEntity<?> addBook(@RequestBody Book book) {
+	public ResponseEntity<?> addBook(@RequestBody BookRequest bookRequest) {
 		logger.info("Starting");
 	
 		BookProcess bookProcess = new BookProcess(bookrepository);
-		responseMessage = bookProcess.addBookProcess(book);
+		responseMessage = bookProcess.addBookProcess(bookRequest);
 		logger.info("Finish");
 		if (responseMessage.getResponseStatus()) {
 			return new ResponseEntity<>(responseMessage.getResponseData(), headers, responseMessage.getHttpStatus());

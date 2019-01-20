@@ -4,19 +4,13 @@ package com.bank.bookstore.controller;
 
 import javax.validation.Valid;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.*;
+import org.springframework.web.bind.annotation.*;
+import com.bank.bookstore.model.*;
+import com.bank.bookstore.model.Request.*;
 
-import com.bank.bookstore.model.ResponseMessage;
-import com.bank.bookstore.model.User;
 import com.bank.bookstore.process.UserProcess;
 import com.bank.bookstore.repository.UserRepository;
 @RestController
@@ -46,12 +40,12 @@ public class UserController {
 
 	@RequestMapping(value = "/users", method = RequestMethod.POST)
 	@ResponseBody
-	public ResponseEntity<?> addUser(@RequestBody @Valid User user) {
+	public ResponseEntity<?> addUser(@RequestBody @Valid UserRequest userRequest) {
 		logger.info("Starting");
 	
 		
 		UserProcess bookProcess = new UserProcess(userRepository);
-		responseMessage = bookProcess.addUserProcess(user);
+		responseMessage = bookProcess.addUserProcess(userRequest);
 		
 		logger.info("Finish");
 		if (responseMessage.getResponseStatus()) {
@@ -67,7 +61,7 @@ public class UserController {
 	
 		
 		UserProcess bookProcess = new UserProcess(userRepository);
-		responseMessage = bookProcess.removeAllUser();
+		responseMessage = bookProcess.removeAllUserProcess();
 		
 		logger.info("Finish");
 		if (responseMessage.getResponseStatus()) {
@@ -76,15 +70,14 @@ public class UserController {
 			return new ResponseEntity<>(responseMessage.getErrorMessage(), headers, responseMessage.getHttpStatus());
 		}
 	}
-	
 	@RequestMapping(value = "/users/orders", method = RequestMethod.POST)
 	@ResponseBody
-	public ResponseEntity<?> orderbook() {
+	public ResponseEntity<?> orderBook(@RequestBody @Valid UserOrderRequest userOrderRequest) {
 		logger.info("Starting");
 	
 		
 		UserProcess bookProcess = new UserProcess(userRepository);
-		responseMessage = bookProcess.removeAllUser();
+		responseMessage = bookProcess.insertOrderProcess(userOrderRequest);
 		
 		logger.info("Finish");
 		if (responseMessage.getResponseStatus()) {
@@ -93,5 +86,6 @@ public class UserController {
 			return new ResponseEntity<>(responseMessage.getErrorMessage(), headers, responseMessage.getHttpStatus());
 		}
 	}
+	
 }
 
