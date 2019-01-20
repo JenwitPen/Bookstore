@@ -1,6 +1,7 @@
 package com.bank.bookstore.repository;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,24 +30,24 @@ public class BookRepository {
 	}
 
 	public List<BookDB> findAll() {
-		return jdbcTemplate.query("select * from book", new BookDBRowMapper());
+		return jdbcTemplate.query("select * from book where active=true order by is_recommended desc", new BookDBRowMapper());
 	}
 	public List<BookDB> findRecommendation() {
-		return jdbcTemplate.query("select * from book where is_recommended=true", new BookDBRowMapper());
+		return jdbcTemplate.query("select * from book where active=true and is_recommended=true", new BookDBRowMapper());
 	}
 	
 	public BookDB findById(long id) {
-		return jdbcTemplate.queryForObject("select * from book where id=?", new Object[] { id },
+		return jdbcTemplate.queryForObject("select * from book where active=true and id=?", new Object[] { id },
 				new BeanPropertyRowMapper<BookDB>(BookDB.class));
 	}
 
 	public int deleteById(long id) {
-		return jdbcTemplate.update("delete from book where id=?", new Object[] { id });
+		return jdbcTemplate.update("update  book set active=false where id=?", new Object[] { id });
 	}
 	
 	public int insert(BookDB book) {
-		return jdbcTemplate.update("insert into book (id, name, author,price,is_recommended) " + "values(?,?,?,?,?)",
-				new Object[] { book.getId(), book.getName(), book.getAuthor(),book.getPrice(),book.getIs_recommended() });
+		return jdbcTemplate.update("insert into book ( name, author,price,is_recommended,createdate,updatedate,createuser,updateuser,active) " + "values(?,?,?,?,?,?,?,?,?)",
+				new Object[] { book.getName(), book.getAuthor(),book.getPrice(),book.getIs_recommended(), new Date(), null, "admin", null, true  });
 	}
 
 	public int update(BookDB book) {

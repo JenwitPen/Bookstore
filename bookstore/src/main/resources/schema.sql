@@ -1,6 +1,6 @@
 create table book
 (
-   id integer not null,
+   id integer not null AUTO_INCREMENT,
    name varchar(255) not null,
    author varchar(255) not null,
    price double not null,
@@ -34,6 +34,7 @@ create table `order`
    id integer not null AUTO_INCREMENT,
    userid integer not null ,
    bookid integer not null ,
+   price double not null ,
    createdate date not null,
    updatedate date,
    createuser varchar(255) not null,

@@ -5,8 +5,7 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
 public class BookRequest {
-	@Id
-	private int id;
+
 	@NotNull(message = "name is a required field")
 	@NotEmpty(message = "name is a required field")	
 	private String name;
@@ -28,9 +27,7 @@ public class BookRequest {
 		super();
 		
 	}
-	public int getId() {
-		return id;
-	}
+	
 
 
 	public BookRequest(int id,
@@ -39,7 +36,7 @@ public class BookRequest {
 			@NotNull(message = "price is a required field") @NotEmpty(message = "price is a required field") double price,
 			@NotNull(message = "is_recommended is a required field") @NotEmpty(message = "is_recommended is a required field") boolean is_recommended) {
 		super();
-		this.id = id;
+
 		this.name = name;
 		this.author = author;
 		this.price = price;
@@ -63,9 +60,7 @@ public class BookRequest {
 
 // Setter Methods 
 
-	public void setId(int id) {
-		this.id = id;
-	}
+	
 
 	public void setName(String name) {
 		this.name = name;

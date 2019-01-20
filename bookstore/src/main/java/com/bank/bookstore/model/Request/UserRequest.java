@@ -8,8 +8,7 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 @Entity
 public class UserRequest{
-	@Id
-	private int id;
+
 
 	@NotNull(message = "name is a required field")
 	@NotEmpty(message = "name is a required field")
@@ -32,32 +31,11 @@ public class UserRequest{
 
 
 
-	public UserRequest(int id,
-			@NotNull(message = "name is a required field") @NotEmpty(message = "name is a required field") String name,
-			@NotNull(message = "surname is a required field") @NotEmpty(message = "surname is a required field") String surname,
-			@NotNull(message = "date_of_birth is a required field") Date date_of_birth,
-			@NotNull(message = "username is a required field") @NotEmpty(message = "username is a required field") String username,
-			@NotNull(message = "password is a required field") @NotEmpty(message = "password is a required field") String password) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.surname = surname;
-		this.date_of_birth = date_of_birth;
-		this.username = username;
-		this.password = password;
 
-	}
 
 	
 
 
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
 
 	public String getName() {
 		return name;

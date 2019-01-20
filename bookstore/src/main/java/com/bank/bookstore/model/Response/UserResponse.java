@@ -1,10 +1,10 @@
 package com.bank.bookstore.model.Response;
 import java.util.ArrayList;
 import java.util.Date;
-public class UserOrderResponse {
+public class UserResponse {
 
 
-	public UserOrderResponse(String name, String surname, Date date_of_birth, ArrayList<Object> books) {
+	public UserResponse(String name, String surname, Date date_of_birth, ArrayList<Object> books) {
 		super();
 		this.name = name;
 		this.surname = surname;
