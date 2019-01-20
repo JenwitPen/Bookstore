@@ -1,4 +1,5 @@
-<b>BooK Store using Java Spring Boost rest api<b>
+<b>ตัวอย่างระบบ BooK Store using Java Spring Boost Rest Api<b>
+  
 สิ่งที่นำมาใช้ในระบบ
   - H2 database in memory 
   - Swagger
@@ -17,4 +18,7 @@ Pasword: <leave this empty> <br>
 
 สามารถทดสอบ Unit Test โดยการ Right Click Project > Run as > JUnit Test
 
-สามารถเข้าไปดู Swagger ที่ http://localhost:8080/swagger-ui.html
+สามารถเข้าไปดู Swagger เปิด browser, enter http://localhost:8080/swagger-ui.html
+
+สามารถ download ไฟล์ BookStore.postman_collection.json เพื่อ import เข้า Postman เพื่อทดลองระบบ
+
