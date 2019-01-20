@@ -30,7 +30,7 @@ public class BookRequest {
 	
 
 
-	public BookRequest(int id,
+	public BookRequest(
 			@NotNull(message = "name is a required field") @NotEmpty(message = "name is a required field") String name,
 			@NotNull(message = "author is a required field") @NotEmpty(message = "author is a required field") String author,
 			@NotNull(message = "price is a required field") @NotEmpty(message = "price is a required field") double price,
