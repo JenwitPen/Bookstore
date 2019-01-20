@@ -36,7 +36,7 @@ public class BookControllerTest {
 
 		final String baseUrl = url + randomServerPort + "/books";
 		URI uri = new URI(baseUrl);
-		restTemplate.getInterceptors().add(new BasicAuthorizationInterceptor(username, password));
+	//	restTemplate.getInterceptors().add(new BasicAuthorizationInterceptor(username, password));
 
 		ResponseEntity<String> result = restTemplate.getForEntity(uri, String.class);
 
@@ -54,7 +54,7 @@ public class BookControllerTest {
 
 		final String baseUrl = url + randomServerPort + "/books/recommendation";
 		URI uri = new URI(baseUrl);
-		restTemplate.getInterceptors().add(new BasicAuthorizationInterceptor(username, password));
+	//	restTemplate.getInterceptors().add(new BasicAuthorizationInterceptor(username, password));
 
 		ResponseEntity<String> result = restTemplate.getForEntity(uri, String.class);
 
@@ -84,43 +84,6 @@ public class BookControllerTest {
 		Assert.assertEquals(true, result.getBody().contains("timestamp"));
 
 	}
-	@Test
-	public void orderBookSuccess() throws URISyntaxException {
 	
-		final String baseUrl = url + randomServerPort + "/users/orders";
-		URI uri = new URI(baseUrl);
-		restTemplate.getInterceptors().add(new BasicAuthorizationInterceptor(username, password));
-		ArrayList<Integer> arr	=new ArrayList<Integer>();
-		arr.add(1);
-		arr.add(2);
-		UserOrderRequest userOrderRequest =new UserOrderRequest(1,arr);
-
-		ResponseEntity<String> result=restTemplate.postForEntity(uri, userOrderRequest,String.class);
-		// Verify request succeed
-		Assert.assertEquals(200, result.getStatusCodeValue());
-		Assert.assertEquals(true, result.getBody().contains("price"));
-	
-
-	}
-	
-	@Test
-	public void deleteUser() throws URISyntaxException {
-	
-		final String baseUrl = url + randomServerPort + "/users";
-		URI uri = new URI(baseUrl);
-		restTemplate.getInterceptors().add(new BasicAuthorizationInterceptor(username, password));
-	
-
-	
-		ResponseEntity<String> result=restTemplate.exchange(uri, HttpMethod.DELETE,null,String.class);
-		// Verify request succeed
-		Assert.assertEquals(200, result.getStatusCodeValue());
-		Assert.assertEquals(true, result.getBody().contains("result"));
-		Assert.assertEquals(true, result.getBody().contains("successmessage"));
-		Assert.assertEquals(true, result.getBody().contains("processid"));
-		Assert.assertEquals(true, result.getBody().contains("timestamp"));
-	
-
-	}
 	
 }

@@ -27,7 +27,7 @@ public class SwaggerConfig {
 
 // Describe your apis
 	private ApiInfo apiInfo() {
-		return new ApiInfoBuilder().title("Bookstore RESTful API with jwt")
+		return new ApiInfoBuilder().title("Bookstore RESTful API")
 				.description("This page lists all the rest apis for Bookstore RESTful API")
 				.build();
 	}
