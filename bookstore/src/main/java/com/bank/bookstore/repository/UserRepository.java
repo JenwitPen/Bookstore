@@ -87,7 +87,7 @@ public class UserRepository {
 			return jdbcTemplate.query("select * from user where active=true", new UserRowMapper());
 		} catch (Exception ex) {
 			logger.error(ex);
-			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+			throw ex;
 		} finally {
 			logger.info("Finish");
 		}
@@ -101,7 +101,7 @@ public class UserRepository {
 					new Object[] { userid }, new BeanPropertyRowMapper<UserBookDB>(UserBookDB.class));
 		} catch (Exception ex) {
 			logger.error(ex);
-			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+			throw ex;
 		} finally {
 			logger.info("Finish");
 		}
@@ -112,7 +112,7 @@ public class UserRepository {
 			return jdbcTemplate.query("select * from user where active=true", new UserRowMapper());
 		} catch (Exception ex) {
 			logger.error(ex);
-			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+			throw ex;
 		} finally {
 			logger.info("Finish");
 		}
@@ -125,7 +125,7 @@ public class UserRepository {
 					new BeanPropertyRowMapper<UserDB>(UserDB.class));
 		} catch (Exception ex) {
 			logger.error(ex);
-			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+			throw ex;
 		} finally {
 			logger.info("Finish");
 		}
@@ -138,7 +138,7 @@ public class UserRepository {
 					new Object[] { username }, new BeanPropertyRowMapper<UserDB>(UserDB.class));
 		} catch (Exception ex) {
 			logger.error(ex);
-			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+			throw ex;
 		} finally {
 			logger.info("Finish");
 		}
@@ -150,7 +150,7 @@ public class UserRepository {
 			return jdbcTemplate.update("update  user set active=false where  id=?", new Object[] { id });
 		} catch (Exception ex) {
 			logger.error(ex);
-			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+			throw ex;
 		} finally {
 			logger.info("Finish");
 		}
@@ -162,7 +162,7 @@ public class UserRepository {
 			return jdbcTemplate.update("update  user set active=false where (1=1)");
 		} catch (Exception ex) {
 			logger.error(ex);
-			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+			throw ex;
 		} finally {
 			logger.info("Finish");
 		}
@@ -178,7 +178,7 @@ public class UserRepository {
 							userdb.getUsername(), userdb.getPassword(), new Date(), "admin", true });
 		} catch (Exception ex) {
 			logger.error(ex);
-			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+			throw ex;
 		} finally {
 			logger.info("Finish");
 		}
@@ -205,7 +205,7 @@ public class UserRepository {
 			}
 		} catch (Exception ex) {
 			logger.error(ex);
-			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+			throw ex;
 		} finally {
 			logger.info("Finish");
 		}
@@ -221,7 +221,7 @@ public class UserRepository {
 							user.getPassword(), user.getId() });
 		} catch (Exception ex) {
 			logger.error(ex);
-			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+			throw ex;
 		} finally {
 			logger.info("Finish");
 		}

@@ -39,15 +39,16 @@ public class BookRepository {
 	public List<BookDB> findAll() {
 		try {
 			logger.info("Starting");
-
+			
 			return jdbcTemplate.query("select * from book where active=true order by is_recommended desc",
 					new BookDBRowMapper());
 		} catch (Exception ex) {
 			logger.error(ex);
-			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+			throw ex;
 		} finally {
 			logger.info("Finish");
 		}
+		
 	}
 
 	public List<BookDB> findRecommendation() {
@@ -57,7 +58,7 @@ public class BookRepository {
 					new BookDBRowMapper());
 		} catch (Exception ex) {
 			logger.error(ex);
-			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+			throw ex;
 		} finally {
 			logger.info("Finish");
 		}
@@ -70,7 +71,7 @@ public class BookRepository {
 					new BeanPropertyRowMapper<BookDB>(BookDB.class));
 		} catch (Exception ex) {
 			logger.error(ex);
-			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+			throw ex;
 		} finally {
 			logger.info("Finish");
 		}
@@ -82,7 +83,7 @@ public class BookRepository {
 			return jdbcTemplate.update("update  book set active=false where id=?", new Object[] { id });
 		} catch (Exception ex) {
 			logger.error(ex);
-			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+			throw ex;
 		} finally {
 			logger.info("Finish");
 		}
@@ -98,7 +99,7 @@ public class BookRepository {
 							new Date(), null, "admin", null, true });
 		} catch (Exception ex) {
 			logger.error(ex);
-			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+			throw ex;
 		} finally {
 			logger.info("Finish");
 		}
@@ -113,7 +114,7 @@ public class BookRepository {
 							book.getId() });
 		} catch (Exception ex) {
 			logger.error(ex);
-			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+			throw ex;
 		} finally {
 			logger.info("Finish");
 		}
