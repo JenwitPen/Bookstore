@@ -22,3 +22,7 @@ Pasword: <leave this empty> <br>
 
 สามารถ download ไฟล์ BookStore.postman_collection.json เพื่อ import เข้า Postman เพื่อทดลองระบบ
 
+ข้อมูลสำหรับ Basic authentication
+username=admin1
+password=secret1
+
