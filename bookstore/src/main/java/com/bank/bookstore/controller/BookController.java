@@ -1,6 +1,8 @@
 package com.bank.bookstore.controller;
 
 
+import javax.validation.Valid;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -63,7 +65,8 @@ public class BookController {
 	}
 	@RequestMapping(value = "/books", method = RequestMethod.POST)
 	@ResponseBody
-	public ResponseEntity<?> addBook(@RequestBody BookRequest bookRequest) {
+	public ResponseEntity<?> addBook(@RequestBody @Valid BookRequest bookRequest) {
+		
 		logger.info("Starting");
 	
 		BookProcess bookProcess = new BookProcess(bookrepository);

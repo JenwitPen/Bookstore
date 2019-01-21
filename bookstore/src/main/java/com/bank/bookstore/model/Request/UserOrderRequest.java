@@ -2,8 +2,9 @@ package com.bank.bookstore.model.Request;
 
 import java.util.ArrayList;
 
+import javax.persistence.Entity;
 import javax.validation.constraints.NotNull;
-
+@Entity
 public class UserOrderRequest {
 
 	

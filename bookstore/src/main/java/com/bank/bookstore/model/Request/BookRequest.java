@@ -1,9 +1,10 @@
 package com.bank.bookstore.model.Request;
 
+import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
-
+@Entity
 public class BookRequest {
 
 	@NotNull(message = "name is a required field")
@@ -15,11 +16,9 @@ public class BookRequest {
 	private String author;
 	
 	@NotNull(message = "price is a required field")
-	@NotEmpty(message = "price is a required field")	
 	private double price;
 	
 	@NotNull(message = "is_recommended is a required field")
-	@NotEmpty(message = "is_recommended is a required field")	
 	private boolean is_recommended;
 
 // Getter Methods 
@@ -33,8 +32,8 @@ public class BookRequest {
 	public BookRequest(
 			@NotNull(message = "name is a required field") @NotEmpty(message = "name is a required field") String name,
 			@NotNull(message = "author is a required field") @NotEmpty(message = "author is a required field") String author,
-			@NotNull(message = "price is a required field") @NotEmpty(message = "price is a required field") double price,
-			@NotNull(message = "is_recommended is a required field") @NotEmpty(message = "is_recommended is a required field") boolean is_recommended) {
+			@NotNull(message = "price is a required field") double price,
+			@NotNull(message = "is_recommended is a required field") boolean is_recommended) {
 		super();
 
 		this.name = name;
