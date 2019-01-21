@@ -5,6 +5,8 @@ import java.sql.SQLException;
 import java.util.Date;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -18,6 +20,7 @@ import com.bank.bookstore.model.DB.*;
 public class UserRepository {
 	@Autowired
 	JdbcTemplate jdbcTemplate;
+	private static Logger logger = LogManager.getLogger(UserRepository.class);
 
 	class UserRowMapper implements RowMapper<UserDB> {
 		@Override
@@ -66,6 +69,7 @@ public class UserRepository {
 	class BookRowMapper implements RowMapper<BookDB> {
 		@Override
 		public BookDB mapRow(ResultSet rs, int rowNum) throws SQLException {
+			logger.info("Starting");
 			BookDB book = new BookDB();
 			book.setId(rs.getInt("id"));
 			book.setName(rs.getString("name"));
@@ -78,69 +82,148 @@ public class UserRepository {
 	}
 
 	public List<UserDB> findAll() {
-		return jdbcTemplate.query("select * from user where active=true", new UserRowMapper());
+		try {
+			logger.info("Starting");
+			return jdbcTemplate.query("select * from user where active=true", new UserRowMapper());
+		} catch (Exception ex) {
+			logger.error(ex);
+			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+		} finally {
+			logger.info("Finish");
+		}
 	}
 
 	public List<UserBookDB> findBookByUser(int userid) {
-		return jdbcTemplate.query(
-				"select u.id as userid,u.date_of_birth,u.name,u.surname,o.bookid  from user as u  join `order`  as o on u.id=o.userid where u.active=true and u.id=?",
-				new Object[] { userid }, new BeanPropertyRowMapper<UserBookDB>(UserBookDB.class));
+		try {
+			logger.info("Starting");
+			return jdbcTemplate.query(
+					"select u.id as userid,u.date_of_birth,u.name,u.surname,o.bookid  from user as u  join `order`  as o on u.id=o.userid where u.active=true and u.id=?",
+					new Object[] { userid }, new BeanPropertyRowMapper<UserBookDB>(UserBookDB.class));
+		} catch (Exception ex) {
+			logger.error(ex);
+			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+		} finally {
+			logger.info("Finish");
+		}
 	}
 
 	public List<UserDB> findRecomn() {
-		return jdbcTemplate.query("select * from user where active=true", new UserRowMapper());
+		try {
+			return jdbcTemplate.query("select * from user where active=true", new UserRowMapper());
+		} catch (Exception ex) {
+			logger.error(ex);
+			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+		} finally {
+			logger.info("Finish");
+		}
 	}
 
 	public UserDB findById(long id) {
-		return jdbcTemplate.queryForObject("select * from user where active=true and id=?", new Object[] { id },
-				new BeanPropertyRowMapper<UserDB>(UserDB.class));
+		try {
+			logger.info("Starting");
+			return jdbcTemplate.queryForObject("select * from user where active=true and id=?", new Object[] { id },
+					new BeanPropertyRowMapper<UserDB>(UserDB.class));
+		} catch (Exception ex) {
+			logger.error(ex);
+			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+		} finally {
+			logger.info("Finish");
+		}
 	}
 
 	public UserDB findByName(String username) {
-		return jdbcTemplate.queryForObject("select * from user where active=true and username=?", new Object[] { username },
-				new BeanPropertyRowMapper<UserDB>(UserDB.class));
+		try {
+			logger.info("Starting");
+			return jdbcTemplate.queryForObject("select * from user where active=true and username=?",
+					new Object[] { username }, new BeanPropertyRowMapper<UserDB>(UserDB.class));
+		} catch (Exception ex) {
+			logger.error(ex);
+			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+		} finally {
+			logger.info("Finish");
+		}
 	}
 
 	public int deleteById(long id) {
-		return jdbcTemplate.update("update  user set active=false where  id=?", new Object[] { id });
+		try {
+			logger.info("Starting");
+			return jdbcTemplate.update("update  user set active=false where  id=?", new Object[] { id });
+		} catch (Exception ex) {
+			logger.error(ex);
+			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+		} finally {
+			logger.info("Finish");
+		}
 	}
 
 	public int deleteAll() {
-		return jdbcTemplate.update("update  user set active=false where (1=1)");
+		try {
+			logger.info("Starting");
+			return jdbcTemplate.update("update  user set active=false where (1=1)");
+		} catch (Exception ex) {
+			logger.error(ex);
+			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+		} finally {
+			logger.info("Finish");
+		}
 	}
 
 	public int insert(UserDB userdb) {
-		return jdbcTemplate.update(
-				"insert into user (name, surname, date_of_birth,username,password,createdate,createuser,active) "
-						+ "values(?,?,?,?,?,?,?,?)",
-				new Object[] { userdb.getName(), userdb.getSurname(), userdb.getDate_of_birth(), userdb.getUsername(),
-						userdb.getPassword(), new Date(), "admin" ,true});
+		try {
+			logger.info("Starting");
+			return jdbcTemplate.update(
+					"insert into user (name, surname, date_of_birth,username,password,createdate,createuser,active) "
+							+ "values(?,?,?,?,?,?,?,?)",
+					new Object[] { userdb.getName(), userdb.getSurname(), userdb.getDate_of_birth(),
+							userdb.getUsername(), userdb.getPassword(), new Date(), "admin", true });
+		} catch (Exception ex) {
+			logger.error(ex);
+			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+		} finally {
+			logger.info("Finish");
+		}
 	}
 
 	public double insertOrder(OrderDB orderdb) {
-		double price = jdbcTemplate.queryForObject("select * from book where id=?",
-				new Object[] { orderdb.getBookid() }, new BeanPropertyRowMapper<BookDB>(BookDB.class)).getPrice();
-		if (price > 0) {
-			int x = jdbcTemplate.update(
-					"insert into `order` (bookid,userid,price,createdate,updatedate,createuser,updateuser,active) "
-							+ "values(?,?,?,?,?,?,?,?)",
-					new Object[] { orderdb.getBookid(), orderdb.getUserid(), price, new Date(), null, "admin", null,
-							true });
-			if (x > 0) {
-				return price;
+		try {
+			logger.info("Starting");
+			double price = jdbcTemplate.queryForObject("select * from book where id=?",
+					new Object[] { orderdb.getBookid() }, new BeanPropertyRowMapper<BookDB>(BookDB.class)).getPrice();
+			if (price > 0) {
+				int x = jdbcTemplate.update(
+						"insert into `order` (bookid,userid,price,createdate,updatedate,createuser,updateuser,active) "
+								+ "values(?,?,?,?,?,?,?,?)",
+						new Object[] { orderdb.getBookid(), orderdb.getUserid(), price, new Date(), null, "admin", null,
+								true });
+				if (x > 0) {
+					return price;
+				} else {
+					return 0;
+				}
 			} else {
 				return 0;
 			}
-		} else {
-			return 0;
+		} catch (Exception ex) {
+			logger.error(ex);
+			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+		} finally {
+			logger.info("Finish");
 		}
 	}
 
 	public int update(UserDB user) {
-		return jdbcTemplate.update(
-				"update user " + " set name = ?, surname = ?, date_of_birth = ? , username = ? , password = ?  "
-						+ " where id = ?",
-				new Object[] { user.getName(), user.getSurname(), user.getDate_of_birth(), user.getUsername(),
-						user.getPassword(), user.getId() });
+		try {
+			logger.info("Starting");
+			return jdbcTemplate.update(
+					"update user " + " set name = ?, surname = ?, date_of_birth = ? , username = ? , password = ?  "
+							+ " where id = ?",
+					new Object[] { user.getName(), user.getSurname(), user.getDate_of_birth(), user.getUsername(),
+							user.getPassword(), user.getId() });
+		} catch (Exception ex) {
+			logger.error(ex);
+			throw new java.lang.RuntimeException("Error process database!  Please contact the IT department.");
+		} finally {
+			logger.info("Finish");
+		}
 	}
 }

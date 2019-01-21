@@ -3,6 +3,8 @@ package com.bank.bookstore.process;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.http.HttpStatus;
 
 import com.bank.bookstore.model.*;
@@ -14,14 +16,17 @@ import com.bank.bookstore.repository.UserRepository;
 public class UserProcess {
 
 	private UserRepository userRepository;
+	private static Logger logger = LogManager.getLogger(UserProcess.class);
 
 	public UserProcess(UserRepository userRepository) {
 		super();
 		this.userRepository = userRepository;
+		logger.info("Starting");
 	}
 
 	public ResponseMessage getAllUsersProcess() {
 		try {
+		
 			List<UserDB> uselist = userRepository.findAll();
 
 			List<UserResponse> userorderlist = new ArrayList<UserResponse>();
@@ -43,7 +48,10 @@ public class UserProcess {
 			}
 
 		} catch (Exception ex) {
-			throw new java.lang.RuntimeException(ex);
+			logger.error(ex);
+			throw new java.lang.RuntimeException("Error process!  Please contact the IT department.");
+		} finally {
+			logger.info("Finish");
 		}
 	}
 
@@ -61,7 +69,10 @@ public class UserProcess {
 			}
 
 		} catch (Exception ex) {
-			throw new java.lang.RuntimeException(ex);
+			logger.error(ex);
+			throw new java.lang.RuntimeException("Error process!  Please contact the IT department.");
+		} finally {
+			logger.info("Finish");
 		}
 
 	}
@@ -78,7 +89,10 @@ public class UserProcess {
 						HttpStatus.INTERNAL_SERVER_ERROR);
 			}
 		} catch (Exception ex) {
-			throw new java.lang.RuntimeException(ex);
+			logger.error(ex);
+			throw new java.lang.RuntimeException("Error process!  Please contact the IT department.");
+		} finally {
+			logger.info("Finish");
 		}
 
 	}
@@ -101,7 +115,10 @@ public class UserProcess {
 			}
 
 		} catch (Exception ex) {
-			throw new java.lang.RuntimeException(ex);
+			logger.error(ex);
+			throw new java.lang.RuntimeException("Error process!  Please contact the IT department.");
+		} finally {
+			logger.info("Finish");
 		}
 
 	}
